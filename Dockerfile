@@ -6,7 +6,7 @@ RUN apt-get update
 
 RUN apt install software-properties-common -y
 
-RUN apt-get install php-fpm -y
+RUN apt-get install php-fpm php-common php-mbstring php-xml php-zip -y
 
 RUN apt-get install git -y
 
