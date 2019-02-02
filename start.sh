@@ -15,8 +15,11 @@ echo " "
 docker run -it \
 --rm \
 -p 80:80 \
+-p 8000:8000 \
 -p 8080:8080 \
 -p 3200:3200 \
 -p 27017:27017 \
+-p 3306:3306 \
+--name edcesar-dev \
 -v $(pwd)/apps:/~/apps \
 edcesar/dev bash
