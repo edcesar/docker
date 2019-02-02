@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo " "
-echo "Instalando o Docker!"
+echo "Installing Docker!"
 echo " "
 
 sudo apt-get update
